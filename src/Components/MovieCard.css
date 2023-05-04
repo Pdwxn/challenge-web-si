@@ -1,0 +1,29 @@
+.mv-card {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.mv-poster {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mv-title {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.mv-descrip {
+    display: flex;
+    font-size: small;
+}
+
+.mv-info {
+    display: flex;
+    font-size: x-small;
+}

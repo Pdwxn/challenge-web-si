@@ -1,0 +1,26 @@
+.form-inicio {
+  background-color: black;
+  padding: 100px;
+  margin-left: 550px;
+  margin-right: 550px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+}
+
+.form-top {
+    margin: 10px
+}
+
+.form-data {
+  margin: 8px;
+  justify-content: left;
+}
+
+.form-bttn {
+  margin-top: 10px;
+  justify-content: end;
+}
