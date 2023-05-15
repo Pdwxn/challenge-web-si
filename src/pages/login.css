@@ -1,26 +1,80 @@
-.form-inicio {
-  background-color: black;
-  padding: 100px;
-  margin-left: 550px;
-  margin-right: 550px;
+.App-header {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #040714;
+  margin: 20px 100px 20px 100px;
+}
+
+.App-logo {
+  max-width: 150px;
+}
+
+.App-back {
+  padding: 10px 15px;
+  background-color: rgb(27, 34, 235);
+  border-radius: 5px;
+  border: solid 1px rgb(29, 35, 211);
+}
+
+.body-login {
+  background-color: white;
+  padding-top: 1px;
+}
+
+.form-inicio {
+  background-color: rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  padding: 100px;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  
+  display: flex;
   justify-content: center;
-  align-items: baseline;
-  align-content: center;
+  flex-direction: column;
+  border-radius: 3px;
 }
 
 .form-top {
-    margin: 10px
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .form-data {
-  margin: 8px;
+  background-color: #333;
+  border: 0;
+  border-radius: 10px;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
+  color: white;
   justify-content: left;
+  margin-bottom: 20px;
 }
 
+
+.form-pswrd {
+  background-color: #333;
+  border: 0;
+  border-radius: 10px;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
+  color: white;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+
 .form-bttn {
-  margin-top: 10px;
-  justify-content: end;
+  padding: 10px 15px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  background-color: rgb(27, 34, 235);
+  border-radius: 5px;
+  border: solid 1px rgb(29, 35, 211);
 }

@@ -1,0 +1,78 @@
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #040714;
+  margin: 20px 100px 20px 100px;
+}
+
+.App-logo {
+  max-width: 150px;
+}
+
+.App-login {
+  padding: 10px 15px;
+  background-color: rgb(27, 34, 235);
+  border-radius: 5px;
+  border: solid 1px rgb(29, 35, 211);
+}
+
+.Home-card {
+  margin: 25px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.Card-img {
+  width: 1300px;
+  height: 600px;
+  border-radius: 50px;
+  opacity: 0.5;
+}
+
+.Text-1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.Text-2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+
+.Email {
+  font-size: 1rem;
+  font-weight: 300;
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  height: auto;
+  width: 250px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.bttn-email {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: absolute;
+  top: 82%;
+  left: 15%;
+  padding: 15px 50px;
+  border-radius: 8px;
+  background-color: rgb(27, 34, 235);
+  border: solid 1px rgb(29, 35, 211);
+  color: #f9f9f9;
+}
