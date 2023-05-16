@@ -1,6 +1,7 @@
 import React from "react";
 import "./MovieCard.css";
 
+
 function movieCard() {
   return (
     <article className="mv-card">

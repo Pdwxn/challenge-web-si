@@ -23,16 +23,31 @@ function App() {
         <div className="Home-card">
           <img src={CardImg} alt="img-home" className="Card-img" />
           <h1 className="Text-1">Disfruta de todo este contenido</h1>
-          <p className="Text-2">Unete a la mejor plataforma de streaming</p>
+          <p className="Text-2">Únete a la mejor plataforma de streaming</p>
           <input className="Email" type="text" placeholder="Email"></input>
           <button className="bttn-email" type="submit">
             Registrate
           </button>
         </div>
-        <div>
-          <p>loren ipsum</p>
+        <>
+        <div className="info-panel">
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/enjoyOnTv/en.png" alt="pc" />
+          <p className="info-text1">
+            Disfruta en la comodidad de tu sillón
+          </p>
         </div>
+      </>
       </body>
+      <footer className="app-footer">
+        <span>
+          <img src={AppLogo} alt="Logo" className="logo-footer" />
+          <div className="info-footer">
+            <span>Conoce más sobre nosotros</span>
+            <span>Términos de uso</span>
+            <span>Privacidad</span>
+          </div>
+        </span>
+      </footer>
     </div>
   );
 }

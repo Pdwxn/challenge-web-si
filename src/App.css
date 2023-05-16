@@ -22,6 +22,7 @@
   margin: 25px;
   overflow: hidden;
   position: relative;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   border-radius: 50px;
@@ -51,6 +52,9 @@
 }
 
 .Email {
+  background-color: aliceblue;
+  border: 0;
+  border-radius: 10px;
   font-size: 1rem;
   font-weight: 300;
   position: absolute;
@@ -60,8 +64,13 @@
   width: 250px;
   margin-top: 10px;
   padding-top: 10px;
+  padding-left: 8px;
   padding-bottom: 10px;
   border-radius: 5px;
+}
+
+.email placeholder {
+  color: black;
 }
 
 .bttn-email {
@@ -75,4 +84,17 @@
   background-color: rgb(27, 34, 235);
   border: solid 1px rgb(29, 35, 211);
   color: #f9f9f9;
+}
+
+.info-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 100px 20px 100px;
+}
+
+.info-text1 {
+  font-size: 2.5rem;
+  font-weight:800;
 }
