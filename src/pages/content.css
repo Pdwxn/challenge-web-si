@@ -30,13 +30,20 @@
   justify-content: left;
 }
 
+.btn-search{
+  padding: 10px 15px;
+  background-color: rgb(27, 34, 235);
+  border-radius: 5px;
+  border: solid 1px rgb(29, 35, 211);
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: baseline;
-  align-content: space-between;
+  margin: 10px 60px;
+  padding: 20px;
 }
 
 .flex-child {
