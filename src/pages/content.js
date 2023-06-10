@@ -16,13 +16,9 @@ function Content() {
   const fetchMovies = async (searchKey) => {
     console.log("init invoque ", + searchKey)
     const type = searchKey ? "search" : "discover";
-    const {
-      data: { results },
-    } = await axios.get(`${API_URL}/${type}/movie`, {
-      params: {
-        api_key: API_KEY,
-        query: searchKey,
-      },
+    const { data: { results },} = await
+    axios.get(`${API_URL}/${type}/movie`, {
+      params: { api_key: API_KEY, query: searchKey, language: 'es-MX',},
     });
     setMovies(results);
   };
